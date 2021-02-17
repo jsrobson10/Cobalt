@@ -1,0 +1,7 @@
+
+int foo(int bar, char c)
+{
+	int a = doSomething();
+}
+
+Function{name: foo, type: int, arguments: [Variable{type: int, name: bar}, Variable{type: char, name: c}], code: [Code{set: a, type: int, to: FunctionCall{name: doSomething, type: int, arguments: []}}]}
